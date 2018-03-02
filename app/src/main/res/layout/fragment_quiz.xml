@@ -1,0 +1,39 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+    <!--tools:context="com.example.jordandysart.taan.fragment.QuizFragment"-->
+
+    <Button
+        android:id="@+id/multichoice"
+        android:text="Multiple Choice"
+        android:layout_margin="@dimen/activity_vertical_margin"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/blue"
+        />
+
+    <Button
+
+        android:id="@+id/word_scramble"
+        android:layout_below="@id/multichoice"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Word Scramble"
+        android:layout_margin="@dimen/activity_vertical_margin"
+        android:background="@drawable/blue"/>
+
+
+    <Button
+
+        android:id="@+id/results"
+        android:layout_below="@id/word_scramble"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Results"
+        android:layout_margin="@dimen/activity_vertical_margin"
+        android:background="@drawable/blue"/>
+</RelativeLayout>

@@ -3,4 +3,21 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+
+    <color name="darkOrange">#D85B27</color>
+    <color name="lightOrange">#ED9023</color>
+    <color name="baseGreen">#8CA352</color>
+    <color name="darkBlue">#A5C2CD</color>
+    <color name="lightBlue">#E9E8EE</color>
+
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+
+
+    <color name="tabMedium">#FFFFFF</color>
+    <color name="tabDark">#FFFFFF</color>
+    <color name="tabTransparent">#10ffffff</color>
+
+    <color name="transparentBox">#8f000000</color>
+    
 </resources>

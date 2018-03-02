@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/credits_profile_view"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    >
+
+
+    <ImageView
+        android:id="@+id/credits_profile_image_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:adjustViewBounds="true"
+        android:background="@drawable/green"
+        android:layout_gravity="top"
+        />
+
+    <TextView
+        android:id="@+id/credits_profile_title_view"
+        android:layout_below="@id/credits_profile_image_view"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingTop="3dp"
+        android:paddingBottom="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/darkOrange"
+        android:background="@android:color/black"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        />
+
+
+
+    <ScrollView
+        android:layout_below="@id/credits_profile_title_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="3dp"
+        android:background="@android:drawable/screen_background_dark_transparent"
+        android:scrollbars="none">
+
+        <TextView
+            android:id="@+id/credits_profile_text_body"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:textColor="@color/lightOrange"
+            android:textSize="@dimen/fontsize"
+
+            />
+    </ScrollView>
+</RelativeLayout>

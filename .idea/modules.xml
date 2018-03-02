@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/LibraryQuickBuild.iml" filepath="$PROJECT_DIR$/LibraryQuickBuild.iml" />
+      <module fileurl="file://$PROJECT_DIR$/QuickBuilds.iml" filepath="$PROJECT_DIR$/QuickBuilds.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
